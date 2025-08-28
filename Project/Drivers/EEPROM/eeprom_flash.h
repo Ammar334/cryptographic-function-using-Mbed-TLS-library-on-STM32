@@ -10,7 +10,7 @@
 
 #include "stm32f4xx_hal.h"
 
-#define FLASH_EEPROM_BASE    0x08020000  // Start address of Sector 4 (64 KB)
+#define FLASH_EEPROM_BASE    0x08010000  // Start address of Sector 4 (64 KB)
 #define FLASH_EEPROM_SIZE    0x10000     // 64 KB (size of Sector 4)
 #define AES_BLOCK_SIZE           16          // AES block size
 #define MAX_SLOTS            (FLASH_EEPROM_SIZE / AES_BLOCK_SIZE)  // 4096 slots

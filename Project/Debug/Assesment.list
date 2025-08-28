@@ -4866,7 +4866,7 @@ uint8_t EEPROM_Flash_Write(uint8_t* data, uint16_t slot) {
     uint32_t addr = FLASH_EEPROM_BASE + slot * AES_BLOCK_SIZE;
  80023be:	887b      	ldrh	r3, [r7, #2]
  80023c0:	f503 0300 	add.w	r3, r3, #8388608	@ 0x800000
- 80023c4:	f503 5300 	add.w	r3, r3, #8192	@ 0x2000
+ 80023c4:	f503 5380 	add.w	r3, r3, #4096	@ 0x1000
  80023c8:	011b      	lsls	r3, r3, #4
  80023ca:	613b      	str	r3, [r7, #16]
     HAL_FLASH_Unlock();
@@ -4970,7 +4970,7 @@ uint8_t EEPROM_Flash_Read(uint8_t* buffer, uint16_t slot) {
     uint32_t addr = FLASH_EEPROM_BASE + slot * AES_BLOCK_SIZE;
  8002466:	887b      	ldrh	r3, [r7, #2]
  8002468:	f503 0300 	add.w	r3, r3, #8388608	@ 0x800000
- 800246c:	f503 5300 	add.w	r3, r3, #8192	@ 0x2000
+ 800246c:	f503 5380 	add.w	r3, r3, #4096	@ 0x1000
  8002470:	011b      	lsls	r3, r3, #4
  8002472:	613b      	str	r3, [r7, #16]
     for (int i = 0; i < AES_BLOCK_SIZE; i += 4) {
@@ -5049,7 +5049,7 @@ uint8_t EEPROM_Flash_EraseSector(void) {
     eraseInit.TypeErase = FLASH_TYPEERASE_SECTORS;
  80024e4:	2300      	movs	r3, #0
  80024e6:	607b      	str	r3, [r7, #4]
-    eraseInit.Sector = FLASH_SECTOR_4; // Last sector of STM32F401xC
+    eraseInit.Sector = FLASH_SECTOR_4;
  80024e8:	2304      	movs	r3, #4
  80024ea:	60fb      	str	r3, [r7, #12]
     eraseInit.NbSectors = 1;

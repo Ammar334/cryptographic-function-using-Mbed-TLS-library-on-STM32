@@ -50,7 +50,7 @@ uint8_t EEPROM_Flash_EraseSector(void) {
     uint32_t sectorError;
 
     eraseInit.TypeErase = FLASH_TYPEERASE_SECTORS;
-    eraseInit.Sector = FLASH_SECTOR_4; // Last sector of STM32F401xC
+    eraseInit.Sector = FLASH_SECTOR_4;
     eraseInit.NbSectors = 1;
     eraseInit.VoltageRange = FLASH_VOLTAGE_RANGE_3;
 

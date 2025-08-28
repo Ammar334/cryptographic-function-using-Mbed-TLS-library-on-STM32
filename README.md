@@ -106,10 +106,10 @@ Project Root/
 
 		| Slot | Flash Address | Size  |
 		|------|---------------|-------|
-		| 0    | 0x08060000    | 16 B  |
-		| 1    | 0x08060010    | 16 B  |
+		| 0    | 0x08010000    | 16 B  |
+		| 1    | 0x08010010    | 16 B  |
 
-- Number of slots: FLASH_EEPROM_SIZE / AES_BLOCK_SIZE = 128 KB / 16 B = 8192 slots.  
+- Number of slots: FLASH_EEPROM_SIZE / AES_BLOCK_SIZE = 64 KB / 16 B = 4096 slots.  
 - Important: Erase the sector before writing for the first time: EEPROM_Flash_EraseSector();  
 
 ## Notes
