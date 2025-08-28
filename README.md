@@ -39,16 +39,29 @@ of encrypted messages using flash memory emulating EEPROM. Users can input 16-by
 Project Root/
 
 ├─ Core/
+
 │  ├─ Inc/
+
 │  │  └─ main.h
+
 │  └─ Src/
+
 │     └─ main.c
+
 ├─ Drivers/
+
 │  └─ EEPROM/
+
 │     ├─ eeprom_flash.c
+
 │     └─ eeprom_flash.h
+
 ├─ Middlewares/
+
 │  └─ Third_Party/
+
 │     └─ mbedtls/
+
 ├─ README.md
+
 └─ .project / .cproject (CubeIDE)
