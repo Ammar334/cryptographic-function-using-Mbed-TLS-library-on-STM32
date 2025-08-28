@@ -1,0 +1,3 @@
+../Drivers/EEPROM/eeprom_flash.c:10:9:EEPROM_Flash_Write	4
+../Drivers/EEPROM/eeprom_flash.c:32:9:EEPROM_Flash_Read	3
+../Drivers/EEPROM/eeprom_flash.c:46:9:EEPROM_Flash_EraseSector	2

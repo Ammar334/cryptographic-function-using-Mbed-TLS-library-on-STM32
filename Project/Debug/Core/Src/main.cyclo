@@ -1,0 +1,10 @@
+../Core/Src/main.c:69:9:AesHandle_encrypt	3
+../Core/Src/main.c:85:9:AesHandle_decrypt	3
+../Core/Src/main.c:119:5:main	4
+../Core/Src/main.c:198:6:SystemClock_Config	3
+../Core/Src/main.c:240:13:MX_USART2_UART_Init	2
+../Core/Src/main.c:273:13:MX_GPIO_Init	1
+../Core/Src/main.c:298:6:HAL_UART_RxCpltCallback	5
+../Core/Src/main.c:317:6:UART_printf	1
+../Core/Src/main.c:326:6:print_hex	2
+../Core/Src/main.c:340:6:Error_Handler	1

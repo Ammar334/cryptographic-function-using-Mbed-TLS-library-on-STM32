@@ -1,0 +1,12 @@
+D:/empedd systems/part 4 ARM/Work_Space/Assesment/Middlewares/Third_Party/library/chachapoly.c:40:12:chachapoly_pad_aad	40	static
+D:/empedd systems/part 4 ARM/Work_Space/Assesment/Middlewares/Third_Party/library/chachapoly.c:61:12:chachapoly_pad_ciphertext	40	static
+D:/empedd systems/part 4 ARM/Work_Space/Assesment/Middlewares/Third_Party/library/chachapoly.c:76:6:mbedtls_chachapoly_init	16	static
+D:/empedd systems/part 4 ARM/Work_Space/Assesment/Middlewares/Third_Party/library/chachapoly.c:88:6:mbedtls_chachapoly_free	16	static
+D:/empedd systems/part 4 ARM/Work_Space/Assesment/Middlewares/Third_Party/library/chachapoly.c:102:5:mbedtls_chachapoly_setkey	24	static
+D:/empedd systems/part 4 ARM/Work_Space/Assesment/Middlewares/Third_Party/library/chachapoly.c:114:5:mbedtls_chachapoly_starts	96	static
+D:/empedd systems/part 4 ARM/Work_Space/Assesment/Middlewares/Third_Party/library/chachapoly.c:155:5:mbedtls_chachapoly_update_aad	40	static
+D:/empedd systems/part 4 ARM/Work_Space/Assesment/Middlewares/Third_Party/library/chachapoly.c:171:5:mbedtls_chachapoly_update	48	static
+D:/empedd systems/part 4 ARM/Work_Space/Assesment/Middlewares/Third_Party/library/chachapoly.c:222:5:mbedtls_chachapoly_finish	40	static
+D:/empedd systems/part 4 ARM/Work_Space/Assesment/Middlewares/Third_Party/library/chachapoly.c:264:12:chachapoly_crypt_and_tag	32	static
+D:/empedd systems/part 4 ARM/Work_Space/Assesment/Middlewares/Third_Party/library/chachapoly.c:297:5:mbedtls_chachapoly_encrypt_and_tag	48	static
+D:/empedd systems/part 4 ARM/Work_Space/Assesment/Middlewares/Third_Party/library/chachapoly.c:318:5:mbedtls_chachapoly_auth_decrypt	72	static

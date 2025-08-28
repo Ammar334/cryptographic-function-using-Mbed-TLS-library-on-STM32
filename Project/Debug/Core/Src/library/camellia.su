@@ -1,0 +1,9 @@
+D:/empedd systems/part 4 ARM/Work_Space/Assesment/Middlewares/Third_Party/library/camellia.c:255:13:camellia_feistel	32	static
+D:/empedd systems/part 4 ARM/Work_Space/Assesment/Middlewares/Third_Party/library/camellia.c:280:6:mbedtls_camellia_init	16	static
+D:/empedd systems/part 4 ARM/Work_Space/Assesment/Middlewares/Third_Party/library/camellia.c:286:6:mbedtls_camellia_free	16	static
+D:/empedd systems/part 4 ARM/Work_Space/Assesment/Middlewares/Third_Party/library/camellia.c:298:5:mbedtls_camellia_setkey_enc	296	static
+D:/empedd systems/part 4 ARM/Work_Space/Assesment/Middlewares/Third_Party/library/camellia.c:412:5:mbedtls_camellia_setkey_dec	320	static
+D:/empedd systems/part 4 ARM/Work_Space/Assesment/Middlewares/Third_Party/library/camellia.c:463:5:mbedtls_camellia_crypt_ecb	48	static
+D:/empedd systems/part 4 ARM/Work_Space/Assesment/Middlewares/Third_Party/library/camellia.c:531:5:mbedtls_camellia_crypt_cbc	56	static
+D:/empedd systems/part 4 ARM/Work_Space/Assesment/Middlewares/Third_Party/library/camellia.c:589:5:mbedtls_camellia_crypt_cfb128	32	static
+D:/empedd systems/part 4 ARM/Work_Space/Assesment/Middlewares/Third_Party/library/camellia.c:646:5:mbedtls_camellia_crypt_ctr	40	static
