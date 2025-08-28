@@ -37,31 +37,17 @@ of encrypted messages using flash memory emulating EEPROM. Users can input 16-by
 ## Project Structure
 
 Project Root/
-
 ├─ Core/
-
-│  ├─ Inc/
-
-│  │  └─ main.h
-
-│  └─ Src/
-
-│      └─ main.c
-
+│ ├─ Inc/
+│ │ └─ main.h
+│ └─ Src/
+│ └─ main.c
 ├─ Drivers/
-
-│  └─ EEPROM/
-
-│      ├─ eeprom_flash.c
-
-│      └─ eeprom_flash.h
-
+│ └─ EEPROM/
+│ ├─ eeprom_flash.c
+│ └─ eeprom_flash.h
 ├─ Middlewares/
-
-│  └─ Third_Party/
-
-│      └─ mbedtls/
-
+│ └─ Third_Party/
+│ └─ mbedtls/
 ├─ README.md
-
 └─ .project / .cproject (CubeIDE)
