@@ -37,6 +37,7 @@ of encrypted messages using flash memory emulating EEPROM. Users can input 16-by
 ## Project Structure
 
 Project Root/
+
 ├─ Core/
 │  ├─ Inc/
 │  │  └─ main.h
