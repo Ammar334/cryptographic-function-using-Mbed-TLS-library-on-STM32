@@ -46,21 +46,21 @@ Project Root/
 
 │  └─ Src/
 
-│     └─ main.c
+│      └─ main.c
 
 ├─ Drivers/
 
 │  └─ EEPROM/
 
-│     ├─ eeprom_flash.c
+│      ├─ eeprom_flash.c
 
-│     └─ eeprom_flash.h
+│      └─ eeprom_flash.h
 
 ├─ Middlewares/
 
 │  └─ Third_Party/
 
-│     └─ mbedtls/
+│      └─ mbedtls/
 
 ├─ README.md
 
