@@ -31,8 +31,8 @@ of encrypted messages using flash memory emulating EEPROM. Users can input 16-by
 ## Software Requirements
 
 - STM32CubeIDE (tested with 1.9.x).
-- mbedTLS library included in Middlewares/Third_Party/mbedtls.
-- ARM toolchain (arm-none-eabi-gcc) integrated in CubeIDE.
+- mbedTLS library included in `Middlewares/Third_Party/mbedtls`.
+- ARM toolchain (`arm-none-eabi-gcc`) integrated in CubeIDE.
 
 ## Project Structure
 
@@ -72,14 +72,14 @@ Project Root/
 2. Open STM32CubeIDE and import the project:  
 	- File > Open Projects from File System.  
 	- Select the project folder.  
-3. Verify mbedTLS path: Ensure #include "mbedtls/aes.h" points to the correct folder.  
+3. Verify mbedTLS path: Ensure `#include "mbedtls/aes.h"` points to the correct folder.  
 4. Connect your board via USB.  
 
 ## Build Instructions
 
 1. Select your Debug or Release configuration.  
-2. Build the project with Project > Build All.  
-3. Flash the binary to the board using Run > Debug or Run > Run.  
+2. Build the project with **Project > Build All**.  
+3. Flash the binary to the board using **Run > Debug** or **Run > Run**.  
 
 ## Usage
 
@@ -99,17 +99,17 @@ Project Root/
 
 ## EEPROM Flash Layout
 
-- Last sector of STM32F401xC flash is used (FLASH_SECTOR_4).  
+- Last sector of STM32F401xC flash is used (**FLASH_SECTOR_4**).  
 - Each slot is 16 bytes (AES block size).  
 
-- Example:  
+- **Example:**  
 
 		| Slot | Flash Address | Size  |
 		|------|---------------|-------|
 		| 0    | 0x08010000    | 16 B  |
 		| 1    | 0x08010010    | 16 B  |
 
-- Number of slots: FLASH_EEPROM_SIZE / AES_BLOCK_SIZE = 64 KB / 16 B = 4096 slots.  
+- Number of slots: `FLASH_EEPROM_SIZE / AES_BLOCK_SIZE = 64 KB / 16 B = 4096 slots`  
 - Important: Erase the sector before writing for the first time: EEPROM_Flash_EraseSector();  
 
 ## Notes
